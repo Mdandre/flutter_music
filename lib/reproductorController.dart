@@ -29,6 +29,7 @@ class ReproductorController extends GetxController {
   reproduction(PlayerController player) {
     if (player.playing && player.position.inSeconds == player.duration.inSeconds - 2) {
       changeSong(true);
+      update();
       return true;
     }
   }

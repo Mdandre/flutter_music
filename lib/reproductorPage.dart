@@ -42,7 +42,7 @@ class _ReproductorState extends State<Reproductor> {
                   StreamBuilder(
                       stream: playerAct.streams.position,
                       builder: (context, AsyncSnapshot<Duration> snapsho) {
-                        controller.reproduction(playerAct) == true ? setState(() {}) : null;
+                        // controller.reproduction(playerAct);
                         return Container(
                             padding: const EdgeInsets.symmetric(horizontal: 40),
                             child: CupertinoSlider(
