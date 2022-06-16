@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_music/reproductorController.dart';
 import 'package:get/get.dart';
 import 'package:kplayer/kplayer.dart';
+
+import 'reproductorController.dart';
 
 class Reproductor extends StatefulWidget {
   const Reproductor({Key? key}) : super(key: key);
